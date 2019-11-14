@@ -6,7 +6,6 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-body">Заявки</div>
-
                 @foreach($orders as $order)
                     <div class="card-header">
                         <a href="/order/{{$order->id}}"> {{$order->title}}</a>

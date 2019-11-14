@@ -8,6 +8,7 @@
                     <div class="card-header">{{$order->title}}</div>
                     <div class="card-body">{{$order->message}}</div>
                 </div>
+            </div>
         </div>
     </div>
 @endsection

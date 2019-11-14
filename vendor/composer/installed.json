@@ -1433,17 +1433,17 @@
     },
     {
         "name": "nesbot/carbon",
-        "version": "2.24.0",
-        "version_normalized": "2.24.0.0",
+        "version": "2.26.0",
+        "version_normalized": "2.26.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/briannesbitt/Carbon.git",
-            "reference": "934459c5ac0658bc765ad1e53512c7c77adcac29"
+            "reference": "e01ecc0b71168febb52ae1fdc1cfcc95428e604e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/934459c5ac0658bc765ad1e53512c7c77adcac29",
-            "reference": "934459c5ac0658bc765ad1e53512c7c77adcac29",
+            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/e01ecc0b71168febb52ae1fdc1cfcc95428e604e",
+            "reference": "e01ecc0b71168febb52ae1fdc1cfcc95428e604e",
             "shasum": ""
         },
         "require": {
@@ -1459,7 +1459,7 @@
             "phpunit/phpunit": "^7.5 || ^8.0",
             "squizlabs/php_codesniffer": "^3.4"
         },
-        "time": "2019-08-31T16:37:55+00:00",
+        "time": "2019-10-21T21:32:25+00:00",
         "bin": [
             "bin/carbon"
         ],
@@ -1492,7 +1492,7 @@
                 "homepage": "http://github.com/kylekatarnls"
             }
         ],
-        "description": "A API extension for DateTime that supports 281 different languages.",
+        "description": "An API extension for DateTime that supports 281 different languages.",
         "homepage": "http://carbon.nesbot.com",
         "keywords": [
             "date",
