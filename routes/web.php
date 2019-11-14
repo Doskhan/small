@@ -14,4 +14,8 @@
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'OrdersController@index')->name('home');
+Route::get('/order/create', 'OrdersController@create');
+Route::get('/order/{id}', 'OrdersController@show');
+Route::post('/store', 'OrdersController@store');
+Route::get('/', 'OrdersController@index')->name('home');
