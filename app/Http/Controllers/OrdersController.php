@@ -75,14 +75,9 @@ class OrdersController extends Controller
             $order->message = $request->message;
             $order->client_id = $user_id;
             $order->save();
-
-            return redirect('/home');
-        }
-        else {
-            $errors = "You can submit only one order per day!";
-            return view('home', compact('errors'));
         }
 
+        return redirect('/home');
 
     }
 
