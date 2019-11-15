@@ -1,10 +1,5 @@
 # small
-Prerequisites:
-You have to have docker installed.
-You have to have git installed
 
-Usage:
-open docker folder using terminal
 ### Prerequisites
 
 - You have to have docker installed;
